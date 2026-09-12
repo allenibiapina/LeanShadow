@@ -1,0 +1,26 @@
+{
+  "lean": {
+    "version": "4.33.0",
+    "commit": "d8b18978322de05a8f3dba51ef03cf5461676c17"
+  },
+  "Comparator": {
+    "repository": "https://github.com/leanprover/comparator",
+    "commit": "3927ad383f208ae977c340a91c48ac9b497d2097"
+  },
+  "lean4export": {
+    "repository": "https://github.com/leanprover/lean4export",
+    "commit": "15f6055e299ad5b89345e533cc2192f4cc00f659"
+  },
+  "landrun": {
+    "version": "0.1.17",
+    "binary_url": "https://github.com/Zouuup/landrun/releases/download/v0.1.17/landrun-linux-amd64",
+    "sha256": "6ada66a06669e8994e174a7271af2db636308e55a0d6ec896cc7d326b46727f6"
+  },
+  "nanoda": {
+    "version": "0.4.17",
+    "repository": "https://github.com/ammkrn/nanoda_lib",
+    "commit": "4c544ed4099c8227f07d5de77ad1e69fb0740a27",
+    "build_command": "cargo build --release --locked",
+    "sha256": "6312f4c3516fd89b66ab981d2c8964a4e9b4597c72765faa371b7e5ba5065645"
+  }
+}

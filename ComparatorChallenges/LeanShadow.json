@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ComparatorChallenges.Shadow",
+  "solution_module": "LeanShadow.ComparatorSolution",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "LeanShadow.Comparator.sharp_shadow_inequality",
+    "LeanShadow.Comparator.sharp_shadow_equality",
+    "LeanShadow.Comparator.caps_attain",
+    "LeanShadow.Comparator.double_cap_bound",
+    "LeanShadow.Comparator.double_cap_equality",
+    "LeanShadow.Comparator.double_cap_attainment",
+    "LeanShadow.Comparator.double_cap_conjecture",
+    "LeanShadow.Comparator.alpha_eq_delta",
+    "LeanShadow.Comparator.projective_shadow_inequality",
+    "LeanShadow.Comparator.projective_shadow_equality",
+    "LeanShadow.Comparator.projective_caps_attain",
+    "LeanShadow.Comparator.s2_double_cap_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

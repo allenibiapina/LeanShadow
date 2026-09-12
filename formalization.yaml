@@ -1,0 +1,206 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+
+version: v0.4
+project:
+  name: LeanShadow
+  description: Sharp orthogonality-shadow inequalities on spheres and real projective spaces in
+    ambient dimension at least three, cap attainment, almost-everywhere rigidity, and the double-cap
+    extremal theorem.
+  authors:
+  - Allen Ibiapina
+  - Carlos Gomes
+  - Alan Pio
+  - Samuel Belo
+  - Ernandes Ferreira
+  license: Apache-2.0
+sources:
+- title: The sharp shadow theorem and double-cap consequence
+  id: MAIN_STATEMENT.md
+  type: original-proof
+  location: Precise shadow theorem and the double-cap consequence
+  relationship: formalizes
+  note: Natural-language statement accompanying the existing ShadowLean proof development.
+related_formalizations:
+- id: https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+  relationship: other
+  note: 'Repository-format reference only: module entry point, formalization.yaml metadata, and
+    separate Comparator challenge/submission layout. No Navier–Stokes mathematics is used.'
+status:
+  scope: All stated shadow and double-cap results. Proof-library counts exclude deliberate theorem
+    placeholders in ComparatorChallenges.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - description: Sharp spherical orthogonality-shadow bound at a prescribed cap area.
+    declaration: LeanShadow.Comparator.sharp_shadow_inequality
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Almost-everywhere rigidity in the spherical shadow equality case.
+    declaration: LeanShadow.Comparator.sharp_shadow_equality
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Open opposite caps attain the angular area and shadow formulas.
+    declaration: LeanShadow.Comparator.caps_attain
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Sharp measure bound for completed-measurable sets with no orthogonal pair.
+    declaration: LeanShadow.Comparator.double_cap_bound
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Almost-everywhere rigidity for independent sets of maximal mass.
+    declaration: LeanShadow.Comparator.double_cap_equality
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Attainment of the maximum independent mass.
+    declaration: LeanShadow.Comparator.double_cap_attainment
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: The double-cap conjecture as a greatest-element statement.
+    declaration: LeanShadow.Comparator.double_cap_conjecture
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Equality of the independent extremal value and the double-cap mass.
+    declaration: LeanShadow.Comparator.alpha_eq_delta
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Sharp projective orthogonality-shadow bound.
+    declaration: LeanShadow.Comparator.projective_shadow_inequality
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Almost-everywhere rigidity in the projective equality case.
+    declaration: LeanShadow.Comparator.projective_shadow_equality
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: Projective caps attain the angular area and shadow formulas.
+    declaration: LeanShadow.Comparator.projective_caps_attain
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+  - description: The explicit independent-set bound on the ordinary two-dimensional sphere.
+    declaration: LeanShadow.Comparator.s2_double_cap_bound
+    file: LeanShadow/ComparatorSolution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: ComparatorChallenges/LeanShadow.json
+automation:
+  methods:
+  - method: agent
+    framework: Codex
+    note: Repository packaging, explicit theorem adapters, and verification tooling.
+review:
+  status: self-assessed
+  notes: Proof build and axiom audit passed for 1,019 theorems. Comparator matched all 12 main
+    results to the standalone reference; both Lean and nanoda accepted their exported proof dependency
+    closure. See VERIFICATION.md for scope.
+alignment:
+  namespaces:
+  - ShadowVerification
+  - LeanShadow.Comparator
+  statements:
+  - source: Sharp spherical orthogonality-shadow bound at a prescribed cap area.
+    lean: LeanShadow.Comparator.sharp_shadow_inequality
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Almost-everywhere rigidity in the spherical shadow equality case.
+    lean: LeanShadow.Comparator.sharp_shadow_equality
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Open opposite caps attain the angular area and shadow formulas.
+    lean: LeanShadow.Comparator.caps_attain
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Sharp measure bound for completed-measurable sets with no orthogonal pair.
+    lean: LeanShadow.Comparator.double_cap_bound
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Almost-everywhere rigidity for independent sets of maximal mass.
+    lean: LeanShadow.Comparator.double_cap_equality
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Attainment of the maximum independent mass.
+    lean: LeanShadow.Comparator.double_cap_attainment
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: The double-cap conjecture as a greatest-element statement.
+    lean: LeanShadow.Comparator.double_cap_conjecture
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Equality of the independent extremal value and the double-cap mass.
+    lean: LeanShadow.Comparator.alpha_eq_delta
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Sharp projective orthogonality-shadow bound.
+    lean: LeanShadow.Comparator.projective_shadow_inequality
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Almost-everywhere rigidity in the projective equality case.
+    lean: LeanShadow.Comparator.projective_shadow_equality
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: Projective caps attain the angular area and shadow formulas.
+    lean: LeanShadow.Comparator.projective_caps_attain
+    module: LeanShadow.ComparatorSolution
+    status: proved
+  - source: The explicit independent-set bound on the ordinary two-dimensional sphere.
+    lean: LeanShadow.Comparator.s2_double_cap_bound
+    module: LeanShadow.ComparatorSolution
+    status: proved
+acknowledgements: Lean, Mathlib, Lake, Comparator, lean4export, and nanoda. The repository presentation
+  follows the OpenAI NavierStokesAndEuler release.

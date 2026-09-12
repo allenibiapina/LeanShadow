@@ -1,0 +1,5 @@
+.lake/
+.tools/
+__pycache__/
+*.log
+replay-status.json

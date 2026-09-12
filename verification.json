@@ -1,0 +1,5264 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-11T16:51:31.732707+00:00",
+  "scope": "Proof library only; challenge placeholders are not proofs or proof dependencies.",
+  "lean": "Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "build_exit_code": 0,
+  "local_module_count": 141,
+  "local_theorem_count": 1019,
+  "verified_top_level_theorems": [
+    "LeanShadow.Comparator.alpha_eq_delta",
+    "LeanShadow.Comparator.caps_attain",
+    "LeanShadow.Comparator.double_cap_attainment",
+    "LeanShadow.Comparator.double_cap_bound",
+    "LeanShadow.Comparator.double_cap_conjecture",
+    "LeanShadow.Comparator.double_cap_equality",
+    "LeanShadow.Comparator.projective_caps_attain",
+    "LeanShadow.Comparator.projective_shadow_equality",
+    "LeanShadow.Comparator.projective_shadow_inequality",
+    "LeanShadow.Comparator.s2_double_cap_bound",
+    "LeanShadow.Comparator.sharp_shadow_equality",
+    "LeanShadow.Comparator.sharp_shadow_inequality"
+  ],
+  "source_sha256": {
+    "LeanShadow.lean": "8c9567f98e977a095cfdbce0d7fc37ac2b35f2c50caaa793e60a693387bd95ec",
+    "LeanShadow/ActualContact.lean": "df0f6b7508cfce6241e7455a994b5ef6179890ed4159654bf0686a14f8c03b55",
+    "LeanShadow/ActualContactOperator.lean": "29e461aebe5059af276dfb29fdad3be71a1bc0d27295d0e1749e18b4afb2de66",
+    "LeanShadow/ActualLocalNonisotropy.lean": "ad58719119b8527b4f7c9373d2cadd2ff74965d163be4e244c7fe39347028d28",
+    "LeanShadow/ActualMomentField.lean": "aa287ea4a3c8b0cca352913e9aebdaa3bb8070fb21e1711c530cc5575b26be63",
+    "LeanShadow/AffineContact.lean": "b42dffab2f9bc3f18057ab221277e0768d264fde3acd417405368e078ca9b047",
+    "LeanShadow/AmbientArea.lean": "30ff2cd87402cc1800ee0ae15818b75df564f8a8607ddb91dfbdbb53a5d79c64",
+    "LeanShadow/AngularNormalization.lean": "281a6c3f4c061897dbfbb3791ddd34e285f24ba613514c99f6f897cdcbeb49cf",
+    "LeanShadow/AntipodalDensity.lean": "33a7d8ce3dffcd6731accafbb5b0e91592de3c5808080a37661ddf291002c4d0",
+    "LeanShadow/AntipodalGeometry.lean": "f55426fc152fe79b0169500ef8e0eb3d2461f454b619f080a3b24ec1751e7db9",
+    "LeanShadow/AntipodalTrimming.lean": "3d65396bbd07c1bcfa4fe36590b5f6745305d2c0148a5ee8aed485cd2cb2665e",
+    "LeanShadow/AreaContraction.lean": "d86884c4141137611c76ac4b679e6713654a340835fd1615ba84bffdb01ded99",
+    "LeanShadow/AreaCoordinateVariations.lean": "20b5f40bbfe2ec27618535a8cd11c0f58512aa3d5bcfbd1e46abbe8169dd16b9",
+    "LeanShadow/AreaHarmonicity.lean": "dd003033cbd649700101405fcf54255971018a926477291273ed7019d7a1f248",
+    "LeanShadow/AreaVariations.lean": "cc0cab910ea65b2acfc01647c1b575d41a214e438ac19ac1076f683e4a0fa76b",
+    "LeanShadow/AttainmentReduction.lean": "a1970929bafe1200f33f086dac89e1f91ca55423ec074e79779d317d1d651e28",
+    "LeanShadow/AxisCoordinates.lean": "285a044f8090ba34eeaca0d83f7c73b66b479726f873b03984da931a9c3f87ed",
+    "LeanShadow/BVLogComparison.lean": "36a8f294660f81eb06bc4ea6eee6a26c8c4bd416d5a26ddfd05bd00004cf0c66",
+    "LeanShadow/CapExtremizers.lean": "9531bf6aedb80a7f6a0c70ce1366d8c45e1e30d5e48e56c20f9bc8b4f0dc5735",
+    "LeanShadow/CapFunctions.lean": "964147eb7884acb27e58ee7840444e6427a03da95e995a97881ece9c75575b4a",
+    "LeanShadow/CapModel.lean": "fbdc45cde79699ca9c664c95798d690c16bd8d361d56f5c4e35028750b3e7a7c",
+    "LeanShadow/CapRadius.lean": "ef5733740cc2790abf05c9be3b15f7cea8e1fdccf1639598047d74f646e2ee15",
+    "LeanShadow/CapRayleigh.lean": "b11eae7bab186c6526de3824d501411716512a09e9e70ab632cd215f25826aa1",
+    "LeanShadow/CapShadow.lean": "94e9e848b5a618e82a663774e22b4f4fb6eb7178bebee147b6232d390b1a444e",
+    "LeanShadow/CompactFeatureOperator.lean": "b6ed27c45ab8d4925da03e6959d24ed8cbf59f2f3b54612c5e59c5cbe9472e2e",
+    "LeanShadow/CompactFrechetIntegral.lean": "8dd8029c05c2121ffec9ddb0fd332c18b529d73a06a48e6f290614bd0b3373cf",
+    "LeanShadow/CompactInnerMeasure.lean": "0266b29f8f8b8d061591e3a3b10622751277cba437c9ed512d05f6648f4b28b9",
+    "LeanShadow/CompactParametricIntegral.lean": "cf48e9ff71074416c3260afea92926f8a342a321e10ea2ba56673319fd717ec9",
+    "LeanShadow/CompactSelfAdjointSquare.lean": "dca08ca0ff1ae18b91221b7083954033b6bb900f7430c2ada2b8448d11d83335",
+    "LeanShadow/ComparatorDefinitions.lean": "9c304ef008e67b7a02ff3a4cdb00970df174237a509be57075ca660e8119494c",
+    "LeanShadow/ComparatorSolution.lean": "7c5a23b8389a9b0c015912e3aff7ca35c5a8b40aae4a24efb4084714a28afb7c",
+    "LeanShadow/CompressionAnalytic.lean": "a43b1c87e3e9da62e08a6ffb2602af5c613c5878b16cde08168c22d377e3e885",
+    "LeanShadow/CompressionConcentration.lean": "1cb060886ee205953c482a85f9924e9a8258a62ef6552afd38915099d9604fba",
+    "LeanShadow/CompressionJacobian.lean": "6191227be8318d8e73a7a92478c0af2d8287f8872a623d41138abd85a6bd7db4",
+    "LeanShadow/CompressionLayercake.lean": "9f197fbfbe753785fb9a183629ef2d790c3128e9e4e5db189942211661b4dd1f",
+    "LeanShadow/CompressionLevelSets.lean": "e0c51e7eeab525e2e3b3515646d97edcca6cb051e908f05e71e6401f5d24b095",
+    "LeanShadow/CompressionTail.lean": "597be595a909266a7602c77cc1e9e391831c0b48a1cbb605fd37a9b08de997b0",
+    "LeanShadow/ConstantMarginalBound.lean": "edac70080cb62d57f941123e5640491d9d29e82381d780900fa209b5705b39c4",
+    "LeanShadow/ContactCalculus.lean": "32600ac0a679ae6e97999c73132912d0fd1974d773da8be81d167c9d6d177c7e",
+    "LeanShadow/ContactInvariantFields.lean": "d186ca864f00af773718e4baaf592b26c2289ed2e6f3ed7a280cb85d7f432100",
+    "LeanShadow/ContinuousKernelOperator.lean": "a170f339000abed0b20b21a9f1c4c003d0f9cbc9fb22d0ff626dc7d48515e1d2",
+    "LeanShadow/CouplingOperator.lean": "0b5c0af985b233ed8eb74e07969fddf3ce438767336318135afec755215be5db",
+    "LeanShadow/CurveCalculus.lean": "cc0a1b71c5d9a83b7aee00fc9899f7b3fde9936a6d9ef32ca9db72cd7c004945",
+    "LeanShadow/DoubleCap.lean": "a58c82553c56918af4d8586594746472bdacd7c409f260bb60f2b774b12c63b9",
+    "LeanShadow/DualAreaRegularity.lean": "cf0dcb40b0bd9686def41449121c54daa56c61a1ceebfeb20636ab2b2c20b3ef",
+    "LeanShadow/DualFlow.lean": "2755e5b9d4c023ba3881cbc6385080bdec0a72c585a2974d0275b53db9ff4ead",
+    "LeanShadow/EllipticMaximum.lean": "0d7ea83cfe597574a821327c2157af7fd54f32c9bef9cfe93b3ad305a482b7e7",
+    "LeanShadow/EquatorialMeasure.lean": "c7ab114e6c12ebd9af6cc4f7353dfe9a648802dd6301c7aad4f7f5e8048d348c",
+    "LeanShadow/EuclideanMatrix.lean": "b47a292c1cc50c066842cbbe47a2fac7745b41d79730af649d39c2c10dd92c99",
+    "LeanShadow/ExponentialDeterminant.lean": "dec585f4f82ceda4d5d2151598a1333ad6b8480dd15e6b61b96282daa4c707b4",
+    "LeanShadow/FlowMaximum.lean": "e12e2185bbcacddb30413cef948b71298f61be99cf544a462d3f5acb8162c165",
+    "LeanShadow/FrameProjection.lean": "8e1be39bf39f7c88d5cb970b9e6b82ac2622a732b762cf67c1e37c20163760b8",
+    "LeanShadow/FrobeniusBasis.lean": "3abefca895ced3d16ab908b88eb1fe40957b8e674516c0476baf1ca533fc7907",
+    "LeanShadow/FullProjectiveFrame.lean": "ba39d0b7fe273ef902975a234505b28b6b383a28c7b31ab462394635409399ae",
+    "LeanShadow/HaarConditionalAverage.lean": "f17df81537e963d6b5751c8205b29fd392617a8a82985918fb70a2d44432a079",
+    "LeanShadow/HaarDensityRepresentatives.lean": "8b0c777bb700aa46650e320705e24dd94cdd0cd086da68f62ae91a5abe0fb233",
+    "LeanShadow/HilbertWeakCompactness.lean": "6f58f3c558885fa592ab9ffdd4861398991283be0b451f638613ef5a39fb0615",
+    "LeanShadow/IncidenceAttainment.lean": "8ff14ff237d070d8d36069994180129388c5e180f92129b1829e95de1d8bdd16",
+    "LeanShadow/IncidenceDensityRecovery.lean": "3996e90bd55e1a45269e55cbf089c49514e9782b5c69b29832478077ea7459ec",
+    "LeanShadow/IncidenceKernelCompactness.lean": "1db35cb0fe68e110324a45dbf784de2c01ee8146c7e08600f3166684b5980a48",
+    "LeanShadow/IncidenceRounding.lean": "c64caba81f32a13b0f5f2bf764805f5084e8d5a410df1703ec5fa4c80fe10529",
+    "LeanShadow/IncidenceTwoStep.lean": "712df059694c79b24275f4932d8ca616f477655941cd2932a8c43f8eaa482839",
+    "LeanShadow/IntegratedContraction.lean": "0de1089f4db688331020fa537300a79183cfa76d4f445e3919be930b50c40fc3",
+    "LeanShadow/IntegratedDensity.lean": "954c9907de01d6a0c76c13f83a5865263534f5daba0ef8ff17bb206b31bd42ff",
+    "LeanShadow/InvariantArea.lean": "7b25f0439c112e58a3f1a710b66e0ac4e3e68b164d9bea845fe450ff5ab4046f",
+    "LeanShadow/InvariantPairMeasure.lean": "79e659eb205f060dd7e68d8faf6e59ce99163ceadabe1e0f70839f8261d97c9a",
+    "LeanShadow/JointAreaRegularity.lean": "80b0f888c824855bc77bcd1b215e38bcca8338ecd3834b6e974deb434619b188",
+    "LeanShadow/JointDifferentiation.lean": "19fd1b3db2fef79f3fd3d30847ad25790ea449165d0280584e01fb9042ca2e45",
+    "LeanShadow/KernelMeasureBound.lean": "fa633d4cc4106f6cce6e8d5272d7b28a853990afddb84adff7eb9df599a710da",
+    "LeanShadow/LatitudeCoordinate.lean": "e99aa355397983b7ef0c71f09fc7859f687f05f1193131aec1834bc405b35077",
+    "LeanShadow/LocalAreaConstancy.lean": "a6403f2e14edaf93e4fee6b73b0ddb8a6d96dbba52408d6d179239452eebdd00",
+    "LeanShadow/MatrixBochner.lean": "c70638233358bec0614c415ac7168479dc1ffed6685edbebbca71ef2930cadd5",
+    "LeanShadow/MomentComparison.lean": "c28227f97c496a05ea0fc99fc3bd37ff0bf11ba28dc8c550b038d96688773203",
+    "LeanShadow/MonotoneIntegral.lean": "400a6eeb53285cca1a2774564f84099ca1170d0f3f8e9485ad47791a7b20b6de",
+    "LeanShadow/NonisotropyMechanism.lean": "648d3c5b915b5f26f0fc638ecd5a6fdeaf04e6bc190e5fefa2481ea39ac3ac17",
+    "LeanShadow/NormalizedVariations.lean": "463da38ab22bfe20ff0ba127b824c497806e0ea127cb9885b7d070a6be533b72",
+    "LeanShadow/OptimizerCompression.lean": "18818dffdf5e032dc8a611773c92c7df74ad64a926e43313cf460b15a01b13e6",
+    "LeanShadow/OptimizerRigidity.lean": "30c93463ac8d683343b042db96ccd96ca19f55f8307837ca8b2930eda88ef2e0",
+    "LeanShadow/OptimizerVariation.lean": "66cbd81c6d83b74347b89a500ca7085fffeffeb627df71ea141c4c8b3217478a",
+    "LeanShadow/OrthogonalFrame.lean": "f7e1f5bf8a8a0c5b24af86fd74f8992ed491724a5c9189c6b7d6212ffbcba4fa",
+    "LeanShadow/OrthogonalHaar.lean": "7b0dbc6fdfd0844af4bbf5e055b13f9100b032236627c06504a4e55e9391091f",
+    "LeanShadow/OrthogonalIncidence.lean": "9a137c54e393d85cc6ac11267e211b4a3f7d9c1c063e65accaaed6418daf2fca",
+    "LeanShadow/OrthogonalPairLaw.lean": "74170e332ec7dcaad79270ad8122cd3882f947ce118272fbe3eeb1a4fdaf8142",
+    "LeanShadow/OrthogonalStabilizer.lean": "629d7c273e92eeb1440415024cdea9550b1194c51c021aa6e34819a3b5843979",
+    "LeanShadow/PairedAreaVariation.lean": "600e161ad6cdce9d6e940af7089d6403a1b8a1b0d097978078edb37aa603814a",
+    "LeanShadow/PlanarLatitude.lean": "97ec2c1d468809da5f2b1efdcc16b3c25829a535b56728751b74dae25f6b992e",
+    "LeanShadow/PointwiseContraction.lean": "cdb8f97a8e0a2c262153361406ff5d07647a0c76825d60c23645b94b5cdc2aae",
+    "LeanShadow/ProfileCapInequality.lean": "c27fb3d15aa346ee1a33d52a1a46eea332bb16399061dbc3655eda6c7c337c7d",
+    "LeanShadow/ProfileClosedness.lean": "74a8d03d5a302d8a1f4a832b64a34e166f61a6214775a82cf0251ef2564688e0",
+    "LeanShadow/ProfileConcavity.lean": "44989f2108c8826c66c7e22cb1038de1beeaabb378a70a97c33f662ae33d2b41",
+    "LeanShadow/ProfileContactMaximum.lean": "4b2e46adfdfe5c3bb55731806eb1f4a59185cdc6c8803abfeee639e558c142d6",
+    "LeanShadow/ProfileEndpoints.lean": "ab16e8b360f8ce4faf6fdfd9afd60725314058f5f778bd72d44d03827897cea5",
+    "LeanShadow/ProfileMinimizingSequence.lean": "47d340ad0d217bbbe91bda111df8dd3ae60d5124938a185d17f8dcaa644b5525",
+    "LeanShadow/ProfileRegularity.lean": "689cd6dcb0f07a44f98c0a0102648b8d43e3782d56fd7f015624c736a2dcd6ff",
+    "LeanShadow/ProfileVariations.lean": "2cda9b8931a8673559f2dbbd94f5186e5d8c0399adaf3ce043e2c4a2d8167b67",
+    "LeanShadow/ProjectionSquares.lean": "ff9a13d624f40571955943d4097ae795e2e5bf72307f06714ab9ad215b137c83",
+    "LeanShadow/ProjectiveArea.lean": "fe60ec516a666b1341850b720077dc8bb3ed5116c62fd9f045f486458b9fa5bf",
+    "LeanShadow/ProjectiveComposition.lean": "355a42dca7806f9677194fb2f65dace12e47d4b151167fee41a912e81142e109",
+    "LeanShadow/ProjectiveCompression.lean": "585245332a07c9a37c166c971e34f3111625a754514220bc03d019aa99ce4a41",
+    "LeanShadow/ProjectiveJacobian.lean": "a958a0c7a6faf37223ebfd6a3d2050603655ade54a7d2e571b39e049167f513f",
+    "LeanShadow/ProjectiveQuotient.lean": "4bfb023564847d6a3c00492d430692e8fcc2ecbc80efa5f26b4d497d0f435f2e",
+    "LeanShadow/ProjectiveShadow.lean": "95fcad7b1875e723ad608bd7b953fbe3961c8c20dfacd19e4d94eb7b1206aa9a",
+    "LeanShadow/QuadraticSupport.lean": "f5f7a7abbe48906133e1c5612115fa011facc33b1f34c8a870ff6e6499529f13",
+    "LeanShadow/RadialChange.lean": "e65c77469fb266ff82a2dd6df607631e46693b507fe4d55d3c7b080c9a3fd114",
+    "LeanShadow/RatioSupport.lean": "0b8cae91b34c267f089db1099e2f411001f9512ec797ecd4cf811a1721f17ec2",
+    "LeanShadow/RightSlopeTaylor.lean": "fcb23e0db3caf0366af20c3a54d05bcfa76b41649cd8e793c5be724bd0297e74",
+    "LeanShadow/ShadowGeometry.lean": "b45fa224d76715c1e633367ee79a56c32a361ba4390a86c0ffb880294a323905",
+    "LeanShadow/ShadowProfile.lean": "15d5f3e8f9cd6c7fc156423e194b7c398ea08b42d9940c665a583b3cfc945b00",
+    "LeanShadow/ShadowRegularity.lean": "3be1f84dde02304ff415839e12ab6a5a15c327dc8747e0a87e47cb2c669be92a",
+    "LeanShadow/ShadowVerification.lean": "cd978231befbb98856ec2de10c7f458c715e85b72d052cb83b0f11962e6220e8",
+    "LeanShadow/SharpProfile.lean": "2459ece1f860640a7e67f3fc9ed639f9e13bdd39eb693182d741c0fd489cffc8",
+    "LeanShadow/SharpShadow.lean": "7d87c4dbba32fe5101ed5d66df13efa8d53cd81b14572e84c5d7503ea4594458",
+    "LeanShadow/SignedKernelBound.lean": "05fb2dab4d610d97a7af0987fd58190ce98fdf2f90728e45e54a9bf7a6c8bcbe",
+    "LeanShadow/SmallShadowCaps.lean": "edd51db33837c7324ea05d82cebddafe5e644a50b37fbcc558b40ee0e3d9b74c",
+    "LeanShadow/SpectralStep.lean": "242425007fa4985beb1ef53ff6e07565cf5361a62307f5b151924c01fb0a2e70",
+    "LeanShadow/SphericalAngularMeasure.lean": "81205d02d9ef6349f6cf57d204120631fe0931302ba820b168f1a67118d4fb89",
+    "LeanShadow/SphericalCaps.lean": "0ab91c6035e4235fc7eedfd09e7b97a736a9bee61ccbf3ba566e954700691732",
+    "LeanShadow/SphericalDensityPoint.lean": "de69065a982416a776278ccc40e964af9ffd0547d662b50f420a967cdd21a87c",
+    "LeanShadow/SphericalDirectionNull.lean": "79ee242e2c07b8007cb3abb80ad681b6c47bd0133e4493d033dcecbfcfb9f595",
+    "LeanShadow/SphericalIncidenceOperator.lean": "b729a71831437f13708e96ed85dc33840224d6143d6118dad56de6ba93b74fed",
+    "LeanShadow/SphericalKernelTruncation.lean": "b93b558c835e81de63fef6963d7482490820f789e4aa146d75325377e5a20075",
+    "LeanShadow/SphericalLatitudeClass.lean": "e307bcaf2e2d00ae19811cf39920323cd81c1fb1506a48f9c2bbcd46a72ff7be",
+    "LeanShadow/SphericalMomentBound.lean": "cee78ea6cdff4cb95abaeee05aaf15e0d72d10dc78b44b8747a86504573c447c",
+    "LeanShadow/SphericalNullSets.lean": "0b69b3b5884b62657ad2ae934dcdacd0d1457de7d7bdc1e99d75e951489721f4",
+    "LeanShadow/SphericalPairDensity.lean": "5577b6a8c52506c5849251fcdeca640bff1ebf0e5c4f257aba4dee47caae76d0",
+    "LeanShadow/SphericalPolarIntegration.lean": "fe730784a3a7fa57573924aeff683f5d7c93242ee5f45201294e4f6366cd4213",
+    "LeanShadow/SphericalProjective.lean": "e34069db77c41e62070e9203e9c697183c548eb2bf780c8333c0b283daa0fb61",
+    "LeanShadow/SphericalRotation.lean": "9968a26bd7349311be0ddc1cdbb175bdde539b9288c23891e86e77adef6eb39a",
+    "LeanShadow/SphericalSingularKernel.lean": "7a0f1e39b70e6b6883236abc5f9693776d9469ec07b121e9bf6829745bcb7af9",
+    "LeanShadow/ThresholdTrimming.lean": "d0cf2af07c030063d22d5dce7d0ecd13afbfde1184e11fd9bedc5808adcdc0d0",
+    "LeanShadow/TwoStepGramClass.lean": "e504a5427948346746849d4543a24694c22a6f8ec016b09431e336fa752cbe2e",
+    "LeanShadow/WeakIndicatorLimits.lean": "4cc15b7ad1c5be6db3cc964b1c10f6b5758fd86b446ee3d46a852ff154de36f6",
+    "LeanShadow/WeightedAreaSource.lean": "86d328ec191343bf65776cc7a6f599ddf2a647dd667dba2e6c8d9ccd49ccc2bf",
+    "LeanShadow/WeightedEllipticity.lean": "f914897c31d77ed75c869eb30dee32ed8dd7287aa111a0d1129aa1c66ed94b2e",
+    "LeanShadow/WeightedFlow.lean": "fe06e85d42bb4d6349b9b0ca385c8044eae1432b98ba8626ccfdf7698535c0da",
+    "LeanShadow/WeightedFrame.lean": "aeb06f7ce459bb32d8f323ba6332863f70986445150ef4784d626d49a652847b",
+    "LeanShadow/WeightedFullOperator.lean": "d780cf0bea7b3fae8b7d88175fde61a52a2b96073e08ea7cce85d4d1d003f964",
+    "LeanShadow/WeightedLocalMaximum.lean": "fd64ff52ceaa3c4f82482ce488fdd363a66e77c7c7265067422df7da63be04f1",
+    "LeanShadow/WeightedMatrix.lean": "f2b2c7d2a928f0b7d52092c44033014caa435ac20b314168c4983dd2ed09745c",
+    "LeanShadow/WeightedOpenMaximum.lean": "60ca1316fda46e4f317d215737d8b2646c6e31a9c57c1df161d185e2f25204b0",
+    "LeanShadow/ZonalKernelCompactness.lean": "047106acf12aa511d4b03c61bf79ac50877cd076a2ce1afc16c095e20032b2b8"
+  },
+  "theorem_axioms": {
+    "ShadowVerification.CompactInner.innerMeasure_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.innerMeasure_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.compact_le_innerMeasure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.innerMeasure_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.measurable_le_innerMeasure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.sigmaCompact_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactInner.exists_sigmaCompact_subset_ae_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MonotoneIntegral.stieltjes_deriv_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MonotoneIntegral.stieltjes_density_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MonotoneIntegral.monotone_deriv_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MonotoneIntegral.monotone_integral_deriv_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MonotoneIntegral.stieltjes_increment_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.BVLogComparison.smooth_increment_le_monotone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.BVLogComparison.ratio_antitone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RatioSupport.right_deriv_nonpos_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RatioSupport.support_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RatioSupport.support_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RatioSupport.endpoint_chord": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.unit_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.action_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.action_symm_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.action_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.avoids_iff_disjoint_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.action_orthogonal_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.shadow_covariance": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.probability_univ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.area_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.area_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Spherical.measurable_action_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.measurable_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.graph_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.cone_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.cone_as_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.cutoff_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.action_cone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.dimension_cancel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.scaled_cone_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.cone_one_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.toSphere_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.probability_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Radial.transformedArea_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalNull.subspace_section_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalNull.singleton_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalNull.nullSingletonClass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.null_preimage_iff_of_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.squeeze_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.normalized_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.squeeze_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.unsqueeze_squeeze": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.squeeze_unsqueeze": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeCoordinate.normalized_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.rpow_second_deriv_at_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowNormSq_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowNormSqD_hasDeriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowDensity_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowDensity_hasDeriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowDensity_second_deriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowDensity_eq_inverse_norm_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowEquiv_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_operator_isUnit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DirectionNull.radial_mass_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DirectionNull.null_iff_rays": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DirectionNull.ratio_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DirectionNull.rays_latitude": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DirectionNull.latitude_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.equivalence_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.inner_perpendicular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.inner_equivalence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.norm_equivalence_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.ratio_equivalence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.perpendicular_finrank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.perpendicular_nontrivial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisCoordinates.ambient_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.hasDerivAt_integral_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.second_deriv_integral_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.local_uniform_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.continuous_fibre": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.continuousAt_integral_compact_on": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.hasFDerivAt_integral_compact_on": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Parametric.contDiffOn_two_integral_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Joint.contDiffAt_partialDerivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Joint.hasFDerivAt_fibre": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Joint.continuousOn_fibre_pullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Joint.contDiffOn_integral_joint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_area_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_joint_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowNormSq_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flowNormSqD_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.density_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityD_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.density_joint_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityD_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityDD_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegral_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegralD_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegral_second_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegral_hasDeriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegral_second_deriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.quotient_second_deriv_at_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.transformedArea_univ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.densityIntegral_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.whole_densityIntegral_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_area_ratio": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_area_hasDeriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_area_second_deriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.unit_operator_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.equiv_mem_invertibleDomain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.contDiffAt_operatorDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.isOpen_invertibleDomain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.contDiffOn_operatorDensityIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.contDiffAt_operatorDensityIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.whole_operator_integral_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.whole_operator_integral_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.transformedArea_eq_extension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Regularity.contDiffAt_areaExtension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.dualEquiv_to_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.dualMap_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.dual_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.contDiffAt_dualMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.avoids_dual_images": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.shadow_covariance_dual": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.transformedDualArea_eq_extension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Dual.contDiffAt_dualAreaExtension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.power_apply_eigenvector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_apply_eigenvector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_apply_eigenvector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_matrix_in_eigenbasis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.trace_eq_sum_eigenvalues": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_determinant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.flow_determinant_trace_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exp_mul_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exp_mul_second_deriv_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.whole_densityIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.whole_densityIntegral_trace_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.firstMomentVariation_univ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.secondMomentVariation_univ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.exponential_area_integral_trace_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.area_hasDeriv_trace_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Projective.area_second_deriv_trace_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.contraction_coefficient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.weighted_trace_algebra": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.weighted_coercivity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.negative_eigenvalue_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.moment_bound_transfer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.equality_forces_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.concave_endpoint_chord": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.gramContraction_posSemidef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.gramContraction_eq_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_eq_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_posSemidef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_smul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.rankOne_isSymm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.manuscriptContraction_rankOne": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.contracted_variation_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.matrix_negative_eigenvalue_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.variation_to_scalar_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_comm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_add_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_sub_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_smul_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_sum_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_transpose_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_projection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.basis_coefficient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.frame_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_row_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.coordinate_outer_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.weighted_row_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_row_square_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_outer_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projection_outer_self_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.projected_pointwise_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pairing_outer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.quadratic_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.row_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.first_variation_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.contraction_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pointwiseKernel_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pointwiseKernel_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pointwise_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.trace_mul_eq_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.contraction_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.pointwise_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.operator_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.operator_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.operator_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.inner_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.inner_operator_twice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.sphere_dot_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.area_first_matrix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Coordinates.area_second_matrix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MatrixIntegral.contraction_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MatrixIntegral.synthesis_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MatrixIntegral.integral_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MatrixIntegral.integral_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MatrixIntegral.integral_isSymm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.continuous_firstDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.continuous_pointwiseKernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.continuous_momentDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.sphere_integrable_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.integratedKernel_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.firstCoefficients_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.gradientMatrix_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.integrated_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.integrated_first_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.integrated_trace_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.gradient_trace_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Integrated.gradient_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.quadraticDensity_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.density_polarization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.continuous_quadraticDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.secondArea_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.firstArea_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.secondArea_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.polarizedAreaMatrix_eq_integrated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.firstArea_eq_coefficients": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.area_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.area_trace_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaContraction.firstArea_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.flatten_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.flatten_frobeniusBasis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Frame.frobeniusBasis_orthonormal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Harmonicity.polarizedAreaMatrix_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Harmonicity.sum_secondArea_eq_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Harmonicity.canonical_sum_second_deriv_eq_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Composition.action_trans": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Composition.action_trans_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Composition.transformedArea_trans": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Composition.sum_second_deriv_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_trans": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_flow_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_trans_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_area_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.dual_area_flow_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.exp_mul_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.skew_flow_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DualFlow.skew_flow_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.scalar_flow_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.area_of_constant_unit_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.skew_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.scalar_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.skew_area_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.scalar_area_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.dual_skew_area_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Invariance.dual_scalar_area_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalHaar.haar_map_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalHaar.rotate_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalHaar.rotate_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalHaar.rotate_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalHaar.exists_exchange": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalRotation.rotate_eq_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalRotation.measurePreserving_rotate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalRotation.orbit_map_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalRotation.orbit_map_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalPolarIntegration.lintegral_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalPolarIntegration.probability_haar_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalPolarIntegration.lintegral_ratio_ball": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PlanarLatitude.kernel_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PlanarLatitude.kernel_iterated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PlanarLatitude.polar_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PlanarLatitude.kernel_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalAngularMeasure.ball_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalAngularMeasure.lintegral_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.sinPrimitive_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.cosPrimitive_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.sinPrimitive_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.normalizer_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.sinPrimitive_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.sinPrimitive_pi": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.capMass_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.capMass_half_pi": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.beltMass_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.beltMass_complement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.beltMass_half_pi": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.capMass_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.beltMass_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.capMass_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.beltMass_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.capMass_strictMono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.moment_boundary_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.moment_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapFunctions.momentBound_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AngularNormalization.lintegral_Ioo_eq_ofReal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AngularNormalization.angularIntegral_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AngularNormalization.angularIntegral_slice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AngularNormalization.slice_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AngularNormalization.lintegral_slice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalDensity.ae_density_ratio": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalDensity.exists_density_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalDensity.exists_axis_of_area_lt_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.antipode_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.antipode_twice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.antipode_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.subset_symmetrize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.symmetrize_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.action_antipode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.antipodal_action_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.shadow_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.avoids_symmetrize_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.shadow_symmetrize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Antipodal.symmetrize_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.shadowValues_bddBelow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.shadow_mem_values": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.profile_le_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.profile_nonneg_at_competitor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.profile_le_one_at_competitor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoiding_shadow_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.feasible_profile_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.transformed_feasible_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoidanceCore_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoids_avoidanceCore": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoidanceCore_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoidingPartner_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoidingPartner_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoids_avoidingPartner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.avoidingPartner_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.optimalPair_of_optimizer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Profile.optimizer_of_optimalPair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.second_deriv_nonpos_at_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.firstLine_zero_at_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.secondLine_nonpos_at_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.frameOp_nonpos_at_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.strict_weak_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.exp_quadratic_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.exp_quadratic_second_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.second_deriv_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.frameOp_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.frameOp_const_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.frameOp_sub_const": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_on_line": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_line_smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_firstLine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_secondLine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_frameOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.gaussian_frameOp_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.no_tangent_ball_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Elliptic.local_strong_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.second_deriv_comp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.firstLine_eq_fderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.secondLine_eq_fderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.flow_first_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.flow_second_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.polarized_flow_second_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.sum_flow_second_eq_frameOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Curves.local_strong_maximum_of_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Contact.support_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Contact.contact_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Contact.contact_second_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Contact.flow_contDiff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Contact.along_flow_contDiffAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSupport.support_at_center": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSupport.slope_at_center": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSupport.lower_support_of_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSupport.positive_lower_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.factor_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.contract_bilinear": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.op_eq_frameOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.directions_symbol": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.directions_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFrame.local_strong_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.symbol_smul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.symbol_continuousAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.symbol_pos_of_spanning": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.symbol_lower_of_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.eventually_uniform_ellipticity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedEllipticity.eventually_uniform_of_spanning": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.leftField_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.continuous_field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.field_at_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.pairing_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.matrix_separation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullFrame.fields_separate_at_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.operatorPath_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.operatorPath_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.trans_flow_to_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.area_path_eq_extension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.first_area_in_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.second_area_in_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.sum_area_second_in_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AreaCoordinates.coordinate_harmonicity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.matrixOperator_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinateEquiv_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.operator_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.operator_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinate_leftField": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinate_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinate_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinate_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.coordinate_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.flow_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.primal_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.dual_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.primal_contDiffAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AmbientArea.dual_contDiffAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.actual_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.actual_trace_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.actual_first_reconstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.paired_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.stationary_moments": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.paired_contraction_stationary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Paired.actual_variation_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.frobenius_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.abs_trace_mul_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.trace_sq_of_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.abs_trace_cube_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weighted_quadratic_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weighted_trace_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weighted_source_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weightCoefficients_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weightCoefficients_contract": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weightCoefficients_quadratic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weightCoefficients_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.contracted_source_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Weighted.weightCoefficients_posDef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedSource.contact_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedSource.actual_source_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedSource.frame_sum_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedSource.actual_weight_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedSource.actual_weight_posSemidef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFlow.symmetric_contract": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFlow.flowHessian_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFlow.weighted_flow_eq_op": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedFlow.weighted_flow_eq_frameOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.operator_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.leftField_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.primal_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.dual_flow_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.first_primal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.second_primal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.first_dual": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.second_dual": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.contact_contDiffAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.contact_first": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.contact_second": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.first_primal_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.contact_hessian": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualContact.contact_gradient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.operator_star": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.skewGenerator_adjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.contact_skew_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.contact_scalar_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.extra_contact_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.extra_contact_first_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactInvariance.extra_contact_second_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.completeWeight_quadratic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.completeWeight_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.completeWeight_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.completeWeight_posDef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.geometricWeight_posDef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.geometricWeight_continuousAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.geometric_uniform_ellipticity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FullWeight.matrix_entry_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactOperator.flowHessian_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactOperator.traceDrift_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactOperator.complete_contact_contraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContactOperator.actual_full_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.moment_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.moment_continuousAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.coefficients_continuousAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.drift_continuousAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.variable_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.eventually_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.MomentField.local_source_at_isotropic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Nonisotropy.source_zero_near_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Nonisotropy.locally_constant_of_derivative_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Nonisotropy.elliptic_analytic_contradiction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Nonisotropy.analytic_compression_contradiction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Nonisotropy.elliptic_compression_contradiction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedLocal.local_coefficient_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedLocal.source_zero_near_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedOpen.continuous_extension_near": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeightedOpen.source_zero_near_local_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualLocal.point_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualLocal.action_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualLocal.moment_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ActualLocal.isotropic_contact_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.dual_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.primal_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.dual_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.optimal_contact_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.contact_le_one_at_transformation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.contact_maximum_of_lower_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.contact_maximum_of_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.optimizer_contact_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileContact.isotropic_optimizer_moment_zero_near": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.symmetric_derivative_eq_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.symmetric_derivative_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.primal_skew_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.primal_scalar_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.extra_primal_flow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.extra_derivative_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.full_field_derivatives_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.eventually_covector_separation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.eventually_fderiv_zero_of_moment_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.locally_constant_of_moment_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LocalArea.isotropic_optimizer_area_constant_near": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionAnalytic.hasDerivAt_integral_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionAnalytic.isOpen_rightHalfPlane": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionAnalytic.positive_combination_slitPlane": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionAnalytic.analyticOnNhd_complex_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionAnalytic.analyticOnNhd_real_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.axisProjection_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.inner_axis_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.axisProjection_idempotent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.axisProjection_orthogonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.dilation_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.projection_dilation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.dilation_comp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.dilation_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.dilationEquiv_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compressionEquiv_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compressionOperator_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compressionOperator_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compression_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.projection_sq_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compression_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.analytic_compression_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.compressionArea_eq_transformedArea": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Compression.analytic_compressionArea": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.antipode_dist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.antipode_image_closedBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.opposite_balls_disjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.measurableSet_doubleBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.measure_antipode_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.antipode_image_inter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.measure_doubleBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.measure_inter_doubleBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.doubleBall_density_ratio": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalDensity.exists_doubleBall_density_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_slice_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_slices_disjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.measurePreserving_antipode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.lintegral_cap_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalCaps.cap_axial_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeClass.product_event_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.LatitudeClass.coordinate_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Trimming.cutMass_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Trimming.cutMass_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Trimming.cutMass_tendsto_atBot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Trimming.cutMass_tendsto_atTop": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Trimming.exists_cutMass_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalTrimming.orbitCode_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalTrimming.orbitCode_antipode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalTrimming.orbitCode_fiber_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalTrimming.exists_subset_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AntipodalTrimming.exists_set_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSequence.shadowValues_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSequence.profile_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSequence.exists_minimizing_sequence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSequence.exists_minimizing_pairs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileSequence.optimizer_of_large_avoiding_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.subsequence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.test_clm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.exists_weak_subsequence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.exists_pair_weak_subsequence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.exists_strong_image_subsequence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.inner_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HilbertWeak.inner_image_eq_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.indicator_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.indicator_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.integral_eq_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.setIntegral_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.nonneg_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.le_one_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.integral_eq_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.positiveSupport_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.integral_le_positiveSupport": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.indicator_norm_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.WeakIndicators.exists_pair_weak_limits": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRounding.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRounding.product_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRounding.positiveSupports_incidence_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRounding.indicator_product_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRounding.incidence_zero_of_avoids": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CouplingOperator.pullback_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CouplingOperator.pullback_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CouplingOperator.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CouplingOperator.norm_apply_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CouplingOperator.symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactSquare.weak_limit_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactSquare.image_tendsto_of_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactSquare.compact_of_comp_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.pairing_zero_of_avoids": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.exists_fractional_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.symmetrized_avoids": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.exists_optimalPair_of_compact_incidence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.empty_optimizer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Attainment.exists_optimalPair_of_compact_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.frame_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.orthogonal_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.measurePreserving_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.measurePreserving_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.firstMarginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.secondMarginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.exists_orthogonal_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalIncidence.realization_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalFrame.dist_mul_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalFrame.exists_exchange_fix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalFrame.exists_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalFrame.exists_exchange_latitude": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OrthogonalFrame.exists_pair_of_inner_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.rotate_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.subgroup_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.haar_map_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.fixed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.exists_latitude": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AxisStabilizer.same_axis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.pairing_haar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.norm_apply_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.nonneg_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.integral_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.indicator_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.avoiding_pairing_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.exists_optimizer_of_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.exists_optimizer_of_compact_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalIncidenceOperator.operator_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.average_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.average_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.orbit_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.average_factors": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.descend_orbit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.spherical_orbit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConditionalAverage.spherical_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairLaw.measure_eq_of_inner_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairLaw.continuous_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairLaw.continuous_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairLaw.continuous_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStep.sample_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStep.gram_sample": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStep.firstMarginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStep.secondMarginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStep.continuous_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.embed_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.embed_perpendicular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.maps_perpendicular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.embed_rotate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.orbit_map_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.Equatorial.orbit_map_spherical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.diagonal_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.gram_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.quotientMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.average_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.average_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.average_factors": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.descend_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.integral_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.InvariantPair.ext_of_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStepGram.product_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStepGram.twoStep_null_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.TwoStepGram.absolutelyContinuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.map_weighted": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.invariant_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.invariant_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.invariant_twoStep": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.density_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.PairDensity.twoStep_absolutelyContinuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConstantMarginal.normalized_marginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConstantMarginal.measure_zero_of_first_marginal_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConstantMarginal.norm_le_of_positive_marginals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConstantMarginal.norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ConstantMarginal.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.KernelMeasure.first_marginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.KernelMeasure.second_marginal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.KernelMeasure.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.KernelMeasure.norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.KernelMeasure.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SignedKernel.absolute_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SignedKernel.absolute_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SignedKernel.normalized_product_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SignedKernel.product_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SignedKernel.norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactFeature.coe_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactFeature.norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactFeature.weak_to_strong": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompactFeature.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContinuousKernel.section_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContinuousKernel.coe_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContinuousKernel.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContinuousKernel.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ContinuousKernel.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.row_integral_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_row_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.cutoff_row_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.norm_le_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalKernel.row_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.global_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.row_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.row_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.norm_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ZonalCompactness.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.cutoff_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.scale_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.scale_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.cutoff_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.rows_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.product_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.row_error_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SingularKernel.kernel_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.lift_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.average_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.representative_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.average_rotate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.ae_group_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.representative_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.HaarDensity.representative_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceCompactness.norm_error_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceCompactness.operator_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceCompactness.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceCompactness.incidence_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceCompactness.exists_optimizer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRecovery.ratio_sum_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRecovery.incompatible_density_limits": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRecovery.representatives_avoid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRecovery.pointwiseRecovery": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceRecovery.exists_optimizer_of_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.scalarDensity_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.scalarDensity_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.joint_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.twoStep_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.twoStep_continuous_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.square_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.IncidenceAttainment.exists_optimizer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.region_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.region_profile_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.optimal_mem_region": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.region_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.region_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileClosedness.profile_monotone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.open_area_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.latitude_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.abs_latitude_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.thin_belt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.shadow_ball_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.exists_small_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.profile_lt_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SmallShadowCaps.profile_small_near_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.threshold_indicator_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.superlevel_integral_maximal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.superlevel_equality_off_threshold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.superlevel_equality_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalMomentBound.cap_threshold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalMomentBound.equal_cap_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalMomentBound.moment_maximal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SphericalMomentBound.moment_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRayleigh.unit_rep": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRayleigh.rayleigh_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRayleigh.sharp_rayleigh": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRayleigh.sharp_rayleigh_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.capMass_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.capMass_surj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.massMap_strictMono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.massMap_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.mass_radius": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_sin_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_cos_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapRadius.radius_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.bound_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.slope_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.bound_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.bound_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.angularSlope_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.slope_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.slope_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.slope_continuousOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.second_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_ode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.slope_contDiffOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapModel.model_contDiffOn_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapShadow.shadow_cap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapShadow.shadow_cap_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapShadow.shadow_cap_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapShadow.profile_le_cap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FlowMaximum.flow_first_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FlowMaximum.flowHessian_neg_posSemidef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FlowMaximum.isClosed_posSemidef": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.FlowMaximum.posSemidef_of_pos_perturbation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.stationarity_at_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.variation_at_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.pair_stationarity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.pair_second_variation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.pair_moment_stationarity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.pair_matrix_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerVariation.optimizer_matrix_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.axisProjection_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.complementProjection_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.axisProjection_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.complementProjection_trace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.flow_complementProjection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.dilation_determinant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.dilation_determinant_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.transformedArea_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.kernel_integral_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionJacobian.kernel_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.dilation_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.dilation_norm_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.kernel_le_away_axis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.kernel_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.kernel_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionTail.tail_integral_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.height_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.height_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.projection_norm_height": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.perpendicular_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.height_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.distance_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.distance_antipode_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.mem_doubleBall_iff_height": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.dilation_norm_height": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.perpendicular_lower_outside_doubleBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.kernel_mono_height": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.superlevel_doubleBall_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLevels.superlevel_eq_doubleBall": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLayercake.lintegral_le_of_superlevel_domination": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLayercake.integral_le_of_superlevel_domination": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLayercake.positive_part_superlevel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionLayercake.integral_le_of_high_level_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionConcentration.small_doubleBall_mass_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionConcentration.high_superlevel_mass_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionConcentration.kernel_integral_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionConcentration.compressionArea_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CompressionConcentration.exists_zero_compression": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.path_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.path_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.path_eq_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.primal_path": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.compressionArea_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.constant_compression_of_locally_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.isotropic_optimizer_compression_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.nonisotropic_of_zero_compression_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.optimizer_nonisotropic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerCompression.optimizer_area_fderiv_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.dilation_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.dual_compression": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.affine_local_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.dual_path": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.contact_path": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.analytic_affine_path": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.AffineContact.affine_compression_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.profile_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.transformed_mem_region": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.chord_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.concave": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.locallyLipschitz": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileConcavity.continuous_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.avoiding_mass_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.mass_le_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.mass_le_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.profile_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.continuous_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileEndpoints.continuous_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.expansion_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.expansion_of_right_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.rightSlope_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.rightSlope_antitone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.rightSlope_ae_differentiable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.RightSlopeTaylor.ae_quadratic_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.rightSlope_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.rightSlope_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.rightSlope_eq_right_deriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.rightSlope_locallyBV": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.curvature_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.ae_positive_quadratic_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.ae_deriv_eq_rightSlope": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileRegularity.ae_optimizer_nonisotropic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.exists_unit_negative_eigenvector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.rayleigh_bound_for_negative_eigenvalue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.algebraic_curvature_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileVariations.optimizer_spectral_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileVariations.optimizer_curvature_bound_of_rayleigh": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileVariations.ae_optimizer_variations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileVariations.ae_optimizer_spectral_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileVariations.ae_rightSlope_deriv_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileCapInequality.profile_le_model": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileCapInequality.moment_bound_at_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileCapInequality.optimizer_curvature_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileCapInequality.ae_profile_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProfileCapInequality.ae_profile_model_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.model_strictMono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.model_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.rightSlope_ratio_antitone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.model_le_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.profile_eq_model": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.profile_eventuallyEq_model": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.profile_hasDeriv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.rightSlope_eq_modelSlope": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.rightSlope_ratio_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.profile_contDiffOn_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.profile_quadratic_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpProfile.curvature_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerRigidity.optimizer_eq_cap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerRigidity.borel_shadow_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.OptimizerRigidity.borel_shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.shadow_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.shadow_iUnion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.shadow_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.shadow_sigmaCompact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.symmetrize_sigmaCompact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.antipode_image_eq_preimage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.innerMeasure_ne_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.innerArea_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.innerArea_le_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.innerArea_eq_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.measurable_area_le_innerArea": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.symmetrize_nullMeasurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ShadowRegularity.exists_antipodal_core": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpShadow.shadow_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpShadow.shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpShadow.cap_attains": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpShadow.arbitrary_shadow_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.SharpShadow.arbitrary_shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.quarter_pi_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.delta_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.model_delta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.budget_implies_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.orthogonal_axis_sq_sum_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.open_caps_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.avoiding_inner_budget": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.open_caps_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.double_cap_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.double_cap_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.DoubleCap.double_cap_attainment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_antipode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_preimage_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_isOpenMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_openQuotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.lift_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.orthogonal_project": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.lift_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.project_measurePreserving": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.lift_nullMeasurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.volume_eq_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.area_eq_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.innerMeasure_eq_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveQuotient.innerArea_eq_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closedCap_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closedCap_antipodal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.shadow_closedCap_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closedCap_ae_eq_open": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closedCap_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closed_belt_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.closedCap_attains": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.double_cap_conjecture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.alpha_eq_delta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.capMass_dimension_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.delta_dimension_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.beltMass_dimension_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.model_dimension_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.CapExtremizers.s2_double_cap_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.cap_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.cap_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.cap_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.cap_ae_of_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.sharp_shadow_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.sharp_shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.ProjectiveShadow.caps_attain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.avoids_iff_disjoint_shadow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.orthogonal_scaling_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.dual_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.avoids_dual_images": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.vectorShadow_covariance": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ShadowVerification.vectorShadow_inverse_transpose": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.sharp_shadow_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.sharp_shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.caps_attain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.double_cap_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.double_cap_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.double_cap_attainment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.double_cap_conjecture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.alpha_eq_delta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.projective_shadow_inequality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.projective_shadow_equality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.projective_caps_attain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanShadow.Comparator.s2_double_cap_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}
